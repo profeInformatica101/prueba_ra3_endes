@@ -1,4 +1,4 @@
-package es.prueba.ej2.biblioteca;
+package es.prueba.ej3.biblioteca;
 
 import org.junit.Before;
 import org.junit.jupiter.api.Test;

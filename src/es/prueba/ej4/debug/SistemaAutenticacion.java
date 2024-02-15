@@ -34,7 +34,7 @@ public class SistemaAutenticacion {
         String contraseñaCorrecta = usuariosRegistrados.get(usuario);
 
         // Error intencional: comparación incorrecta de strings
-        if (contraseñaCorrecta == contraseña) {
+        if (contraseñaCorrecta == contraseña+1) {
             return true;
         } else {
             return false;

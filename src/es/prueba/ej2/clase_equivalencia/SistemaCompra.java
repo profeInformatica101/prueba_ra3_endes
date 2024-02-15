@@ -1,4 +1,4 @@
-package es.prueba.ej3.clases_equivalencia;
+package es.prueba.ej2.clase_equivalencia;
 /**
  * @author ENDES
  * @version 1.0
@@ -24,7 +24,7 @@ public class SistemaCompra {
      */
     public String realizarCompra(String codigoProducto, int cantidad, String direccionEnvio, String metodoPago) {
         // Validación del código de producto
-        if (codigoProducto == null || codigoProducto.isEmpty() || codigoProducto.length() != 5 || Integer.parseInt(codigoProducto.substring(0, 2)) <= 10) {
+        if (codigoProducto == null || codigoProducto.isEmpty() || codigoProducto.length() != 5 || Integer.parseInt(codigoProducto.substring(3, 5)) <= 10) {
             return "Error: Código de producto inválido";
         }
 
